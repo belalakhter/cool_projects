@@ -1,0 +1,1 @@
+echo "web: python -m src.agent.main" > Procfile

@@ -1,4 +1,0 @@
-tweepy
-python-dotenv
-pandas
-pytz
