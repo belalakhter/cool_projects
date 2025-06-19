@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  slack-agent:
+    build: .
+    container_name: slack_agent
+    restart: unless-stopped
+    environment:
+      - SLACK_BOT_TOKEN=
+      - SLACK_APP_TOKEN=
+      - PORT=3000
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
