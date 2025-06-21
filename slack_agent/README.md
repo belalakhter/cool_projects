@@ -1,5 +1,5 @@
 ## Features
-- Summarize documents
+- Summarize documents using llm
 - Send alerts for user activity monitors
 - Manage user notes
 
