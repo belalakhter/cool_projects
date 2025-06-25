@@ -100,7 +100,7 @@ def handle_summarize(ack, respond, command, client):
 
     client.chat_postMessage(
         channel=command["user_id"],
-        text=f"Summary: {summary}"
+        text=f"{summary}"
     )
 
 
