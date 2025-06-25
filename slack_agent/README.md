@@ -22,6 +22,6 @@ Or
 - poetry install && poetry run -m python src.agent.main
 
 - Depends On ENV SLACK_BOT_TOKEN, SLACK_APP_TOKEN, PORT
-## how it looks=>
+## Images
 ![summarize](./assets/summarize.png)
 ![alerts](./assets/alert.png)
