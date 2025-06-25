@@ -1,4 +1,4 @@
-module github.com/belalakhter/cool_projects/dex_screen
+module github.com/belalakhter/projects/dex_screen
 
 go 1.23.3
 

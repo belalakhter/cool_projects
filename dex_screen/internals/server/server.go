@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	token "github.com/belalakhter/cool_projects/dex_screen/internals/token"
+	token "github.com/belalakhter/projects/dex_screen/internals/token"
 	"github.com/defiweb/go-eth/rpc"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi"

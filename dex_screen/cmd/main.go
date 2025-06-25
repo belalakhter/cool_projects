@@ -1,8 +1,8 @@
 package main
 
 import (
-	server "github.com/belalakhter/cool_projects/dex_screen/internals/server"
-	token "github.com/belalakhter/cool_projects/dex_screen/internals/token"
+	server "github.com/belalakhter/projects/dex_screen/internals/server"
+	token "github.com/belalakhter/projects/dex_screen/internals/token"
 )
 
 func main() {
