@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  dex-screen:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - HTTP_URL=${HTTP_URL}
+      - WS_URL=${WS_URL}
+    networks:
+      - dex-network
+
+networks:
+  dex-network:
+    driver: bridge
